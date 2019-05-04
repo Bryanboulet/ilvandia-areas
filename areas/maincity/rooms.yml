@@ -1,0 +1,477 @@
+# Map Key: 1 
+- id: obsidianObeliskPrecursorTradeBuilding
+  title: Beneath a Floating Obelisk
+  description: >
+    Soaring approximately two stories high and dominating the center of the area is a massive, floating obelisk. No observable method keeps it afloat, yet it hovers endlessly. The surface of the obelisk is polished obsidian, returning barely discernible reflections of its surroundings. The obelisk is covered in faintly glowing runes that dim and brighten rhythmically. Above the obelisk, though difficult to see from this vantage point, is a peaked ceiling. Underfoot, stone brick pavers cover the floor. Peculiarly there are a small number of obsidian bricks interspersed throughout the stone pavers. Even more peculiarly, these obsidian bricks emit magical light throughout the area. From here, hallways lead to the north and south while the great hall expands to the east and the west.
+  npcs: # No NPCs planned for this room.
+  items: # Obelisk item will go here.
+  exits:
+    - roomId: "maincity:northHallwayPrecursorTradeBuilding"
+      direction: north
+    - roomId: "maincity:southHallwayPrecursorTradeBuilding"
+      direction: south
+    - roomId: "maincity:westHall2PrecursorTradeBuilding"
+      direction: west
+    - roomId: "maincity:eastHall1PrecursorTradeBuilding"
+      direction: east
+# Map Key: 2
+- id: northHallwayPrecursorTradeBuilding
+  title: A Stone Brick Hallway
+  description: >
+    High-vaulted and peaked ceilings, barely detectable from the floor, loom above. From this vantage point, they seem nearly as non-descript as the stone walls, which are completely devoid of everything. There are no mars, scrapes, damages, decorations; they are lifeless. The floor, however, does contain a peculiarity. It is crafted mostly from ordinary stone pavers but the occasional obsidian brick is littered into the design. Each of these obsidian bricks casts a magical glow through the area, providing ample light. From here, the hallway leads south into a large central chamber with a massive obelisk. It also leads into three smaller rooms to the north, northeast, and northwest.
+  npcs: # No NPCs planned for this room.
+  items: # No items planned for this room.
+  exits:
+    - roomId: "maincity:obsidianObeliskPrecursorTradeBuilding"
+      direction: south
+    - roomId: "maincity:northOrbChamberPrecursorTradeBuilding"
+      direction: north
+    - roomId: "maincity:northwestCrystalChamberPrecursorTradeBuilding"
+      direction: northwest
+    - roomId: "maincity:northeastCrystalChamberPrecursorTradeBuilding"
+      direction: northeast
+# Map Key: 3
+- id: northOrbChamberPrecursorTradeBuilding
+  title: A Circular Stone Chamber
+  description: >
+    The walls of this circular chamber are ordinary stone bricks. The walls extend approximately two stories high before being capped off by a rounded stone ceiling. In addition to the walls and the ceiling, the floor is also made of the same grey stone bricks. Interestingly, interspersed throughout the stone bricks on the floor is the occasional obsidian brick. Even more interestingly, each of these obsidian bricks casts a magical glow about the chamber. Dominating the center of the room is a floating orb. The orb glows a soft light bluish color and seems to be slowly, but constantly, materializing and immaterializing. # Down the road, this orb will serve as a teleportation device. For now, it is dormant.
+  npcs: # No NPCs planned for this room.
+  items: # The orb item will go here.
+  exits:
+    - roomId: "maincity:northHallwayPrecursorTradeBuilding"
+      direction: south
+# Map Key: 4
+- id: northwestCrystalChamberPrecursorTradeBuilding
+  title: A Triangular Stone Chamber
+  description: >
+    In the center of this room, mounted atop an elaborate pedestal, is a red crystal. The crystal gives off a bit of red light and emits a constant, albeit quiet, humming sound. The pedestal it is mounted on was fashioned entirely from electrum and has several jewels set in it. Beneath the pedestal is an almost ordinary floor made of stone bricks. In certain places, the stone brick pavers have been replaced with an obsidian one. Each of the obsidian pavers radiates a magical light that illuminates the area. The walls and ceiling of the room are made of the same grey ordinary stones as found underfoot.
+  npcs: # No NPCs planned for this room.
+  items: # The crystal item and pedestal will go here.
+  exits:
+    - roomId: "maincity:northHallwayPrecursorTradeBuilding"
+      direction: southeast
+# Map Key: 5
+- id: northeastCrystalChamberPrecursorTradeBuilding
+  title: A Triangular Stone Chamber
+  description: >
+    Demanding attention in the middle of the room is a green crystal mounted atop an elaborate pedestal. The crystal hums quietly and glows softly. The pedestal it rests upon was crafted from electrum and has several jewels set in it. Despite the grandiose appearance of the pedestal and the crystal atop it, the rest of the room is fairly ordinary. Undecorated and unmarred, rather boring to be exact, stone floors, walls, and ceilings outfit the rest of this triangular chamber. Of note; however, are the seemingly randomly placed obsidian brick pavers in the floor. Each of the obsidian bricks glows with a magical light aiding in lighting the chamber.
+  npcs: # No NPCs planned for this room.
+  items: # The crystal and pedestal item will go here.
+  exits:
+    - roomId: "maincity:northHallwayPrecursorTradebuilding"
+      direction: southwest
+# Map Key: 6
+- id: southHallwayPrecursorTradeBuilding
+  title: A Stone Brick Hallway
+  description: >
+    A fairly non-descript hallway travels north and south, as well as providing passage to chambers to the southeast and southwest from here. Underfoot, the hallway is almost entirely stone brick pavers. The only exception to this is the occasional obsidian brick paver, each of which has been enchanted to give off a small amount of magical light. The walls of the hallway are even more ordinary than the floor. They extend upwards, eventually meeting the high-peaked ceiling nearly two stories above.
+  npcs: # No NPCs planned for this room.
+  items: # No items planned for this room.
+  exits:
+    - roomId: "maincity:obsidianObeliskPrecursorTradeBuilding"
+      direction: north
+    - roomId: "maincity:southOrbChamberPrecursorTradebuilding"
+      direction: south
+    - roomId: "maincity:southeastCrystalChamberPrecursorTradeBuilding"
+      direction: southeast
+    - roomId: "maincity:southwestCrystalChamberPrecursorTradeBuilding"
+      direction: southwest
+# Map Key: 7
+- id: southOrbChamberPrecursorTradeBuilding
+  title: A Circular Stone Chamber
+  description: >
+    Ordinary stone bricks, laid one after the other, form the domed ceiling, rounded walls, and flat floor of this circular chamber. The occasional stone brick paver on the floor has been replaced with an obsidian brick paver. All of these obsidian bricks radiate a small amount of magical light. The centerpiece of this room is a floating orb, light red in color and rhythymically fading in and out of existence. # Later on this orb will serve as a teleporation device.
+  npcs: # No NPCs planned for this room.
+  items: # The orb item will go here.
+  exits:
+    - roomId: "maincity:southHallwayPrecursorTradeBuilding"
+      direction: north
+# Map Key: 8
+- id: southeastCrystalChamberPrecursorTradeBuilding
+  title: A Triangular Stone Chamber
+  description: >
+    This triangular chamber is mostly made from stone brick pavers. The walls, the slanted ceiling, and even the floors are fairly ordinary and even lack blemishes or decorations. Of note; however, two things immediately stand out. The first, and most prominent, is the electrum pedestal showcasing as the centerpiece of the room. The pedestal is adorned with many in-set jewels. Atop the pedestal where the item it was made for would ordinarily sit is empty. The second thing of note are the random obsidian brick pavers in the floor. Each of them provides a small amount of magical light which illuminates the room.
+  npcs: # No NPCs are planned for this room.
+  items: # The crystal and pedestal will go here.
+  exits:
+    - roomId: "maincity:southHallwayPrecursorTradeBuilding"
+      direction: northwest
+# Map Key: 9
+- id: southwestCrystalChamberPrecursorTradeBuilding
+  title: A Triangular Stone Chamber
+  description: >
+    Sloped stone ceilings, starting nearly two stories high at the northeast end of the room and going down to about one story high at the southwest end of the room, loom overhead. Matching the stone ceilings in nearly every quality are the stone walls around the room, fairly non-descript. The floors have a slight variation. Although they are made of the same stone bricks the ceiling and walls are, the floors have the occasional obsidian brick paver added in. Each of these obsidian brick pavers has been enchanted to cast a magical light through the area. Finally, in the center of the room is an electrum pedestal adorned with several jewels. Atop the pedestal sits a green crystal, glowing softly and humming quietly.
+  npcs: # No NPCs are planned for this room.
+  items: # The crystal and pedestal item will go here.
+  exits:
+    - roomId: "maincity:southHallwayPrecursorTradeBuilding"
+      direction: northeast
+# Map Key: 10
+- id: westHall2PrecursorTradeBuilding
+  title: Western Grand Hall
+  description: >
+    Stone brick pavers, arranged neatly, cover the ground. Interspersed throughout the stone brick pavers is the occasional obsidian brick paver. The obsidian brick pavers all cast a magical light on the area. Since the light comes so low from the ground, it's interesting to see the strange tricks it plays with shadows in the area. To the north and south of here are a couple of trade stalls. West of here the great hall continues and to the east a massive obelisk looms over the great hall.
+  npcs: # No NPCs are planned for this room.
+  items: # No items are planned  for this room.
+  exits:
+    - roomId: "maincity:obsidianObeliskPrecursorTradeBuilding"
+      direction: east
+    - roomId: "maincity:northwestMarketStall2PrecursorTradeBuilding"
+      direction: north
+    - roomId: "maincity:southwestMarketStall2PrecursorTradeBuilding"
+      direction: south
+    - roomId: "maincity:westHall1PrecursorTradeBuilding"
+      direction: west
+# Map Key: 11
+- id: northwestMarketStall2PrecursorTradeBuilding
+  title: A Market Stall
+  description: >
+    Sturdily built wooden shelves, racks, and stands have been packed in tightly in a U-shape in this section of the great hall. Behind these stalls on the northern and eastern side an ordinary grey stone wall rises nearly two stories above before joining with a vaulted ceiling. Underfoot, ordinary stone pavers matching the walls and ceilings can be found. There are several sporadically placed obsidian bricks within the stone floor, each of them casting an enchanted glow around the area. # The idea of these merchant stalls, eventually, is to have new merchants come through every often.
+  npcs: # There will be a merchant here.
+  items: # Room objects planned, perhaps
+  exits:
+    - roomId: "maincity:westHall2PrecursorTradeBuilding"
+      direction: south
+# Map Key: 12
+- id: southwestMarketStall2PrecursorTradeBuilding
+  title: A Market Stall
+  description: >
+    Several wooden shelves, racks, stands, and other pieces of furniture design to hold objects create a U-shape in this portion of the great hall. Behind the furniture objects, on the southern and eastern sides, tall stone walls rise two stories up to eventually meet a vaulted ceiling. Similarly, the floor is crafted from ordinary stone brick pavers, although occasionally an obsidian brick has been inserted into the pattern. These obsidian bricks glow with a magical light illuminating the area. # Another market stall where the merchants will change over time.
+  npcs: # There will be a merchant here.
+  items: # Merchant shelves will be items so enterprising thieves have things to try to steal from. Also realism.
+  exits:
+    - roomId: "maincity:westHall2PrecursorTradeBuilding"
+      direction: north
+# Map Key: 13
+- id: westHall1PrecursorTradeBuilding
+  title: Western Grand Hall
+  description: >
+    Vaulted ceilings of grey stone loom approximately two stories above. Matching the ceiling in construction material, the stone brick pavers underfoot are professionally arranged. Interestingly, distributed throughout the floor, in no particular pattern, are several obsidian brick pavers. Each of the pavers has been enchanted with magical light forever lighting the grand hall. From here, the grand hall continues to the east and the west. Market stalls can be found to the north and the south of here.
+  npcs: # No NPCs planned for this room. Although somewhere in this building I will need to make some guards that walk a patrol route.
+  items: # No items planned for this room. Though depending on how light works I may need to add brick objects. Talk to Daniel about it.
+  exits:
+    - roomId: "maincity:westHall2PrecursorTradeBuilding"
+      direction: east
+    - roomId: "maincity:northwestMarketStall1PrecursorTradeBuilding"
+      direction: north
+    - roomId: "maincity:southwestMarketStall1PrecursorTradeBuilding"
+      direction: south
+    - roomId: 
+      direction: 
+# Map Key: 14
+- id: northwestMarketStall1PrecursorTradeBuilding
+  title: A Market Stall
+  description: >
+    Much like the rest of this building, the ceilings are vaulted high, the northern wall and floors are plain, and all of it is made from grey stone bricks. Additionally, and also much like the rest of this building, obsidian brick pavers, enchanted with magical light, are peppered throughout the floor. Several wooden shelves, racks, and displays are packed tightly together here, forming a U-shape with the opening towards the south. # This room will be a stall that rotates vendors on some sort of timed basis.
+  npcs: # There will be a merchant here.
+  items: # Items planned will be the shelves, racks, etc, for thievery and realism.
+  exits:
+    - roomId: "maincity:westHall1PrecursorTradeBuilding"
+      direction: south
+# Map Key: 15
+- id: southwestMarketStall1PrecursorTradeBuilding
+  title: A Market Stall
+  description: >
+    High vaulted ceilings, easily two stories tall, loom above. The ceilings are crafted from grey stone bricks and are otherwise unadorned. Similarly, the southern wall and the floors are crafted from the same grey stone as the ceiling. A slight difference in the floor; however, is that occasionally there is an obsidian brick paver mixed in with the stone paveres. The obsidian bricks have been enchanted to illuminate the area. Merchandise stalls, shelves, racks, and displays, carved from wood, form a relatively tightly-packed U-shape here; with the opening of the U-shape at the north end of the area. # Merchants will change out over time.
+  npcs: # There will be a merchant here.
+  items: # Items planned will be the shelves, etc, for thievery and realism.
+  exits:
+    - roomId: "maincity:westHall1PrecursorTradeBuilding"
+      direction: north
+# Map Key: 16
+- id: eastHall1PrecursorTradeBuilding
+  title: Eastern Grand Hall
+  description: >
+    Stone pavers cover the ground here, oriented from east to west. The stone pavers are grey in color, fairly ordinary, and without blemish or adornment. Scattered throughout the floor, seemingly at random, are a few obsidian pavers each of which emit a dim magical glow into this area of the grand hall. Towering about two stories above is an arched ceiling crafted from stone bricks much like those on the ground. From here, the grand hall extends eastward. To the north and south are a few market stalls. Finally, west appears to lead to the center of the grand hall and is home to a massive obsidian obelisk.
+  npcs: # No NPCs planned but a guard will walk this room in his patrol route.
+  items: # No items planned for this room.
+  exits:
+    - roomId: "maincity:obsidianObeliskPrecursorTradeBuilding"
+      direction: west
+    - roomId: "maincity:northeastMarketStall1PrecursorTradeBuilding"
+      direction: north
+    - roomId: "maincity:southeastMarketStall1PrecursorTradeBuilding"
+      direction: south
+    - roomId: "maincity:eastHall2PrecursorTradeBuilding"
+      direction: east
+# Map Key: 17
+- id: northeastMarketStall1PrecursorTradeBuilding
+  title: A Market Stall
+  description: >
+    Several shelves, racks, and other furniture used for displaying merchants goods form a U-shape here. While the furniture is crafted mostly from wood, some of them sport metal fixtures and braces to support additional weight. Beneath the wooden furniture are grey stone pavers, aligned from east to west. On the northern and western ends of this part of the grand hall, the floors meet with the stone walls which soar approximately two stories high before meeting the vaulted ceilings above. While the only prudent exit from here is south, thanks to the U-shaped stalls, it is readily apparent that at least a few more market stalls lie east of here.
+  npcs: # A merchant NPC will be here.
+  items: # Items include some of the merchant's merchandise and the stalls; for thievery and realism.
+  exits:
+    - roomId: "maincity:eastHall1PrecursorTradeBuilding"
+      direction: south
+# Map Key: 18
+- id: southeastMarketStall1PrecursorTradeBuilding
+  title: A Market Stall
+  description: >
+    Grey stone pavers, as ordinary as is possible, cover the ground here. Laid from east to the west, they are unmarred; however, the occasional stone paver has been replaced by an obsidian paver. The purpose of the obsidian pavers is very clear, as each of them provides magical illumination into this area of the grand hall. At the southern and western ends of the room, the stone pavers meet with walls that are strikingly similar to the floors. These walls rise approximately two stories high before meeting with the vaulted ceiling above. Forming a U-shape in the area are several shelves, racks, display cases, and other types of furniture merchants use to peddle their wares. The U-shape opens at the northern end to lead back into the great, and is the only exit from this part of the hall. While passage easy may be blocked, sight is not, and it can be easily discerned that there are more market stalls to the east of here. # all of the rooms in this building will eventually have merchants on a rotational basis. Maybe once per day or two a merchant changes out?
+  npcs: # This room will have a merchant in it.
+  items: # Items here will be merchant's stalls & merchandise for thievery and realism.
+  exits:
+    - roomId: "maincity:eastHall1PrecursorTradeBuilding"
+      direction: north
+# Map Key: 19
+- id: eastHall2PrecursorTradeBuilding
+  title: Eastern End of the Grand Hall
+  description: >
+    Laid from east to west, and arranged very meticulously, are enough grey stone pavers to cover the ground of this section and beyond of the grand hall. In addition to the stone pavers, the occasional obsidian paver has been laid within the floor. Each of these obsidian pavers has been enchanted to cast a magical glow over the area. Looming to the west a relatively short distance way is a massive obsidian obelisk. The grand expands both to the east and west from here. At the northern and southern ends of this section of the great hall are a couple of market stalls.
+  npcs: # No NPCs, but this is part of the guard route. Hell, this whole building will be part of the guard route; gotta make it hard for those thieves you know?
+  items: # No items are planned for this room.
+  exits:
+    - roomId: "maincity:eastHall1PrecursorTradeBuilding"
+      direction: west
+    - roomId: "maincity:northeastMarketStall2PrecursorTradeBuilding"
+      direction: north
+    - roomId: "maincity:southeastMarketStall2PrecursorTradeBuilding"
+      direction: south
+    - roomId:
+      direction:
+# Map Key: 20
+- id: northeastMarketStall2PrecursorTradeBuilding
+  title: A Market Stall
+  description: >
+    Rugged market stalls, engineered primarily from wood and a little bit of iron, form a U-shape in this part of the grand hall. The market stalls, designed the hold a plethora of merchants goods, rest atop grey stone pavers; laid from east to west. Interspersed throughout the stone pavers on the floor is the occasional obsidian paver. The purpose of the obsidian pavers is immediately clear as they have been enchanted to emit a small amount of magical light in the area. Passage to the north and east is blocked by a stone brick wall,very similar to the floor. The wall rises roughly two stories before intersecting with a vaulted ceiling of the same material. The only prudent exit from here is towards the south into the great hall; however, it's easy to see more market stalls to the west.
+  npcs: # There will be a merchant here.
+  items: # Merchant stalls & a few items for thievery and realism go here.
+  exits:
+    - roomId: "maincity:eastHall2PrecursorTradeBuilding"
+      direction: south
+# Map Key: 21 
+- id: southeastMarketStall2PrecursorTradeBuilding
+  title: A Market Stall
+  description: >
+    Stone pavers, laid from east to west, cover the ground here. They are sturdy, well-crafted, and even more interestingly they do not all seem to be stone. In fact, a few of the pavers are obsidian and have quite obviously been enchanted to brighten the area. Resting atop the stone floors, and forming a U-shape, are several merchants stalls, racks, and displays. The majority of the furniture is wooden and built sturdily, if nothing else. The U-shape opens up to the north and ordinary stone brick walls, roughly two stories tall and eventually meeting an arched ceiling, block passage to the south and the east. While the market stalls stop travel westward, it's not difficult to see that there are more market stalls to the west of here. 
+  npcs: # There will be a merchant here.
+  items: # There will be items here, the merchant stalls and a few items for thievery and realism.
+  exits:
+    - roomId: "maincity:eastHall2PrecursorTradeBuilding"
+      direction: north
+# Map Key: 22
+- id: intersectionWestWayfarerLane
+  title: An Intersection on a Wide Dirt Road
+  coordinates: [0, 0, 0]
+  description: >
+    A non-descript solid dirt road offers expedient travel to the south and the northwest. At the eastern end of the road, a large double doorframe hangs open, granting access to a large stone building. Along the north and west sides of the road are the back sides of buildings made from both stone and wood.
+  npcs: # No NPCs planned for this room.
+  items: # No items planned for this room.
+  exits:
+    - roomId: "maincity:intersectionWestWayfarerLane"
+      direction: northwest
+# Map Key: 23
+- id: mercenaryGuildExteriorSouthGate
+  title: A Dirt Road before a Large Stone Gate
+  coordinates: [-1, 1, 0]
+  description: >
+    Towering over this part of the dirt road is a stone gatehouse with an iron portcullis barring entry through it. The dirt road leads north through the gate and southeast back towards the city.
+  npcs: # No NPCs planned for this room.
+  items: # No items are planned for this room.
+  exits: # There will need to be an exit to the north eventually that leads into the mercenary guild area.
+# Map Key: 24
+- id: westWayfarerLane1
+  title: A Wide Dirt Road
+  coordinates: [0, -1, 0]
+  description: >
+  A wide dirt road, large enough to fit three horses abreast, runs north and south from here. Buildings line both the east and the west side of the road.
+  npcs: # No NPCs planned for this room.
+  items: # No items are planned for this room.
+# Map Key: 25
+- id: westWayfarerLane2
+  title: A Wide Dirt Road
+  coordinates: [0, -2, 0]
+  description: >
+    A wide, hard-packed dirt road runs north and south here. The west side of the road is lined with buildings, some made from stone and some made from wood. Access to the east side of the road is blocked by a wooden fence, approximately a man and a half tall. Set within the center of the fence is a wooden gate.
+  npcs: # No NPCs planned for this room.
+  items: # No items are planned for this room.
+  exits: # East exit, which is an auto exit thanks to coordinates, needs to have a door on it.
+# Map Key: 26
+- id: wayfarerInnNorthGarden
+  title: A Small Garden
+  coordinates: [1, -2, 0]
+  description: >
+    This small vegetable garden is bordered on the north and the east by a two-story stone brick building, on the south by a two-story stone brick and wood two-story, and on the west by a wooden fence about one and a half times the size of the average man. Growing around the area, in no particular arrangement, is a wide assortment of peppers, seasonings, and fruits. The enclosure is packed nearly to capacity with plants with little room for moving around.
+  npcs: # Maybe an NPC here, gardener or something, I'm not sure yet.
+  items: # Items will need to be all the plants growing here so they can be harvested.
+  exits: # Exit into the inn south of here. Leads to kitchen.
+# Map Key: 27
+- id: westWayfarerLane3
+  title: A Wide Dirt Road
+  coordinates: [0, -3, 0]
+  description: >
+    A wide dirt road, smooth, sturdy, and wide enough to hold two wagons side-by-side, runs north and south from here. Buildings of wood and stone rise up on both the east and west side of the road.
+  npcs: # No NPCs planned right now, but will need to have patrolling guards.
+  items: # No items planned at this point.
+# Map Key: 28
+- id: westWayfarerLane4
+  title: A Wide Dirt Road
+  coordinates: [0, -4, 0]
+  description: >
+    A wide dirt road bends to the north and the southeast from here. The road is wide enough to fit multiple wagons or several horses across it; likely intended to serve as a primary trade route. Along the east side of the road is a wooden fence, perhaps about three meters tall. Along the west side of the road are a couple of buildings. Travel south from here is blocked by a series of large red boulders.
+  npcs: # No NPCs planned but guards may be here.
+  items: # No items planned at this time.
+  Exits:
+    - roomId: "maincity:southWayfarerLane1"
+      direction: southeast
+# Map Key: 29
+- id: southWayfarerLane1
+  title: A Wide Dirt Road
+  coordinates: [1, -5, 0]
+  description: >
+    This section of road is bordered on the north by a wooden privacy fence roughtly three meters tall and on the west by a series of tightly packed, large red boulders. Along the southern edge of the road are multiple buildings, a combination of stone brick and wood make. The road, wide enough to accommodate multiple horse-drawn carriages, bends to the northwest and to the east.
+  npcs: # No NPCs planned for this room right now.
+  items: # No items necessary at this time.
+  exits:
+    - roomId: westWayfarerLane4
+      direction: northwest
+# Map Key: 30
+- id: southWayfarerLane2
+  title: A Wide Dirt Road
+  coordinates: [2, -5, 0]
+  description: >
+    Along the northern side of this wide trade road looms a two-story building, the bottom half constructed from stone bricks and the top half from wood. Set in the center of the wall is a large bay style window. The street runs east and west from here, large enough to fit several carts abreast. Along the southern edge of the street is another building, similar in make to the one opposite.
+  npcs: # None.
+  items: # None.
+# Map Key: 31
+- id: wayfarerInnEntrance
+  title: A Wide Dirt Road before the Inn Entrance
+  coordinates: [3, -5, 0]
+  description: >
+    The wide dirt road runs east and west from here. Along the northern edge of the road is the Wayfarer's Inn. It sports a rather non-descript heavy wooden door. The bottom half of the inn is constructed from stone bricks and the top half of the same wood as the door. Hanging over the door, perpendicular to the building is a sign.
+  npcs: # None.
+  items: # Sign at least.
+  exits:
+    - roomId: # The inn receptionist desk
+      direction: north
+# Map Key: 32
+- id: southWayfarerLane3
+  title: A Wide Dirt Road
+  coordinates: [4, -5, 0]
+  description: >
+    A wide dirt road, likely intended for expeditious trade given that it could fit several supply wagons abreast, runs east and west from here. The road is pincered from the north and the south by buildings made from stone and wood.
+# Map Key: 33
+- id: southWayfarerLane4
+  title: A Wide Dirt Road
+  coordinates: [5, -5, 0]
+  description: >
+    A hard-packed dirt road, wide enough to allow horse-drawn wagons to pass one another, runs east and west here. Along the north and south sides of the road are two-story buildings made of stone brick and wood.
+  npcs: # None.
+  items: # None.
+# Map Key: 34
+- id: southWayfarerLane5
+  title: A Bend in the Wide Dirt Road
+  coordinates: [6, -5, 0]
+  description: >
+    The wide dirt trade road bends, allowing travel to the north and to the west from here. The road rests immediately alongside the corner of a building at the northwest. Passage to the east and the south are blocked by more buildings, each made of stone brick and wood.
+  npcs: # None
+  items: # None
+# Map Key: 35
+- id: eastWayfarerLane4
+  title: A Wide Dirt Road
+  coordinates: [6, -4, 0]
+  description: >
+    A dirt road, large enough to fit several horses side-by-side, runs north and south here. Immediately alongside the west side of the road is a building of stone bricks and wood. Off the side of the road, a short way to the east, is another building of stone brick and wood.
+  npcs: # None.
+  items: # None
+# Map Key: 36
+- id: eastWayfarerLane3
+  title: A Wide Dirt Road
+  coordinates: [6, -3, 0]
+  description: >
+    Along the western side of this dirt road is a wooden picket style fence with a gate; standing about waist-height on the average man. On the other side of the fence there is a stable yard, patched with grass and dirt. The wide dirt road, clearly intended to move goods, runs north and south from here. On the eastern side of the road is a building of wood and stone bricks.
+  npcs: # None
+  items: # None
+# Map Key: 37
+- id: eastWayfarerLane2
+  title: A Wide Dirt Road
+  coordinates: [6, -2, 0]
+  description: >
+    A well-traveled dirt road, wide enough to fit multiple traders carts across, travels north and south here. Along the eastern and western sides of the road are buildings made of wood and stone bricks.
+  npcs: # None
+  items: # None
+# Map Key: 38
+- id: eastWayfarerLane1
+  title: A Wide Dirt Road
+  description: >
+    A wide dirt road, intended as a primary route for trade based upon its width, runs north and south here. On the western side of the road is a large, two-story stone building. Along the east is a building of wood and stone. At the north, the dirt road meets with a road made of stone pavers.
+  npcs: # None
+  items: # None
+# Map Key: 39
+- id: northRunRoad1
+  title: A Street of Stone Pavers
+  coordinates: [6, 0, 0]
+  description: >
+    Looming to the west is a massive, two-story stone brick building with an arched roof. Set in the wall is a large double wooden doorframe, the doors that belong to it are inexplicably missing. Along the northern end of the street are a couple of non-descript buildings of wood and stone brick. At the southern end of the street, the stone paver road meets with a wide dirt road. The stone street travels eastward.
+  npcs: # No NPCs here at this time.
+  items: # No items planned for this room.
+  exits:
+    - roomId: "maincity:eastHall2PrecursorTradeBuilding"
+      direction: west
+# Map Key: 40
+- id: wayfarerInnSouthGarden
+  title: A Small Private Garden
+  coordinates: [1, -4, 0]
+  description: >
+    A wide assortment of fruits, vegetables, herbs, and spices are growing in this small garden. Nearly every bit of space available is home to a plant of some sort, with very little room for even moving around. The eastern and northern sides of this garden is bordered by a two-story building made of stone bricks and wood. The southern and western sides of this garden is closed off by a wooden privacy fence, about the height of a man and a half. The only exit from this garden is north into the building.
+  npcs: # None, maybe a gardener or something
+  items: # Plants and stuff will go in here. All kinds of them that can be picked and pruned and gathered.
+  exits:
+    - roomId: # exit north to the kitchen
+      direction: north
+# Map Key: 41
+- id: wayfarerInnCheckIn
+  title: A Decorated Reception Area
+  description: >
+    
+
+# Below this line are the games example rooms; keeping them around for now just in case I forget how to do something.
+# These are comments, ignored by the file
+- id: room1
+  title: "Example Room"
+  description: >
+    This is an example description repeated many times. This is an example description repeated many times.
+    This is an example description repeated many times. This is an example description repeated many times.
+    This is an example description repeated many times. This is an example description repeated many times.
+    This is an example description repeated many times.
+  npcs: ["examples:goblin", "anotherzone:oldman" ] # List to spawn
+  items:
+    - id: "examples:chest"
+      respawnChance: 20
+      replaceOnRespawn: true # when this chest respawns completely replace it so its contents get refreshed
+  exits:
+    - roomId: "examples:room2"
+      direction: east
+      leaveMessage: " steps into the void and disappears." # optional leave message
+- id: room2
+  title: "Another Example Room"
+  description: >
+    This is another example description but I'm not going to repeat it. This room has two mobs that spawn in it
+    with differing chances and maximum amounts.
+  npcs: # Not a list this time, doing them seperately to add configuration to each
+    - id: "examples:orc"
+      respawnChance: 25
+      maxLoad: 3 # Each respawn, check to see if there are 3 already in the room. If so, don't respawn
+    - id: "examples:turtle"
+      respawnChance: 2
+      maxLoad: 1
+  exits:
+    - roomId: "examples:room1"
+      direction: west
+    - roomId: "examples:doorRoom"
+      direction: south
+- id: doorRoom
+  title: "Door Example"
+  description: >
+    This is an example of a room with a door. You always place the door in the room that you want to block
+    access to. For instance, I want to block access to this room from room2, so I place this door on this room
+    instead of room2. Now someone coming from room2 will have a door to deal with.
+  exits:
+    - roomId: "examples:room2"
+      direction: north
+  doors:
+    "examples:room2": # The "name" of the door is always the room that access is blocked from
+      closed: true
+      locked: true
+      lockedBy: "examples:key" # An object that must be in inventory to unlock the door

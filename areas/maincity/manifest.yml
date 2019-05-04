@@ -1,0 +1,4 @@
+title: "maincity"
+behaviors:
+  progressive-respawn:
+    interval: 60
