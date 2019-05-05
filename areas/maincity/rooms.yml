@@ -275,7 +275,7 @@
   title: A Wide Dirt Road
   coordinates: [0, -1, 0]
   description: >
-  A wide dirt road, large enough to fit three horses abreast, runs north and south from here. Buildings line both the east and the west side of the road.
+    A wide dirt road, large enough to fit three horses abreast, runs north and south from here. Buildings line both the east and the west side of the road.
   npcs: # No NPCs planned for this room.
   items: # No items are planned for this room.
 # Map Key: 25
@@ -428,50 +428,50 @@
 
 # Below this line are the games example rooms; keeping them around for now just in case I forget how to do something.
 # These are comments, ignored by the file
-- id: room1
-  title: "Example Room"
-  description: >
-    This is an example description repeated many times. This is an example description repeated many times.
-    This is an example description repeated many times. This is an example description repeated many times.
-    This is an example description repeated many times. This is an example description repeated many times.
-    This is an example description repeated many times.
-  npcs: ["examples:goblin", "anotherzone:oldman" ] # List to spawn
-  items:
-    - id: "examples:chest"
-      respawnChance: 20
-      replaceOnRespawn: true # when this chest respawns completely replace it so its contents get refreshed
-  exits:
-    - roomId: "examples:room2"
-      direction: east
-      leaveMessage: " steps into the void and disappears." # optional leave message
-- id: room2
-  title: "Another Example Room"
-  description: >
-    This is another example description but I'm not going to repeat it. This room has two mobs that spawn in it
-    with differing chances and maximum amounts.
-  npcs: # Not a list this time, doing them seperately to add configuration to each
-    - id: "examples:orc"
-      respawnChance: 25
-      maxLoad: 3 # Each respawn, check to see if there are 3 already in the room. If so, don't respawn
-    - id: "examples:turtle"
-      respawnChance: 2
-      maxLoad: 1
-  exits:
-    - roomId: "examples:room1"
-      direction: west
-    - roomId: "examples:doorRoom"
-      direction: south
-- id: doorRoom
-  title: "Door Example"
-  description: >
-    This is an example of a room with a door. You always place the door in the room that you want to block
-    access to. For instance, I want to block access to this room from room2, so I place this door on this room
-    instead of room2. Now someone coming from room2 will have a door to deal with.
-  exits:
-    - roomId: "examples:room2"
-      direction: north
-  doors:
-    "examples:room2": # The "name" of the door is always the room that access is blocked from
-      closed: true
-      locked: true
-      lockedBy: "examples:key" # An object that must be in inventory to unlock the door
+# - id: room1
+#   title: "Example Room"
+#   description: >
+#     This is an example description repeated many times. This is an example description repeated many times.
+#     This is an example description repeated many times. This is an example description repeated many times.
+#     This is an example description repeated many times. This is an example description repeated many times.
+#     This is an example description repeated many times.
+#   npcs: ["examples:goblin", "anotherzone:oldman" ] # List to spawn
+#   items:
+#     - id: "examples:chest"
+#       respawnChance: 20
+#       replaceOnRespawn: true # when this chest respawns completely replace it so its contents get refreshed
+#   exits:
+#     - roomId: "examples:room2"
+#       direction: east
+#       leaveMessage: " steps into the void and disappears." # optional leave message
+# - id: room2
+#   title: "Another Example Room"
+#   description: >
+#     This is another example description but I'm not going to repeat it. This room has two mobs that spawn in it
+#     with differing chances and maximum amounts.
+#   npcs: # Not a list this time, doing them seperately to add configuration to each
+#     - id: "examples:orc"
+#       respawnChance: 25
+#       maxLoad: 3 # Each respawn, check to see if there are 3 already in the room. If so, don't respawn
+#     - id: "examples:turtle"
+#       respawnChance: 2
+#       maxLoad: 1
+#   exits:
+#     - roomId: "examples:room1"
+#       direction: west
+#     - roomId: "examples:doorRoom"
+#       direction: south
+# - id: doorRoom
+#   title: "Door Example"
+#   description: >
+#     This is an example of a room with a door. You always place the door in the room that you want to block
+#     access to. For instance, I want to block access to this room from room2, so I place this door on this room
+#     instead of room2. Now someone coming from room2 will have a door to deal with.
+#   exits:
+#     - roomId: "examples:room2"
+#       direction: north
+#   doors:
+#     "examples:room2": # The "name" of the door is always the room that access is blocked from
+#       closed: true
+#       locked: true
+#       lockedBy: "examples:key" # An object that must be in inventory to unlock the door
