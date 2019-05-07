@@ -3,7 +3,7 @@
 #  metadata:
 #    tile: "*"
 #    tile: "<green>^</green>"
-# Map Key: 1 
+# Map Key: 1
 - id: obsidianObeliskGoldarra
   title: Beneath a Floating Obelisk
   description: >
@@ -205,11 +205,11 @@
   exits:
     - roomId: "dasmer:eastHall2Goldarra"
       direction: south
-# Map Key: 21 
+# Map Key: 21
 - id: southeastMarketStall2Goldarra
   title: A Market Stall
   description: >
-    Stone pavers, laid from east to west, cover the ground here. They are sturdy, well-crafted, and even more interestingly they do not all seem to be stone. In fact, a few of the pavers are obsidian and have quite obviously been enchanted to brighten the area. Resting atop the stone floors, and forming a U-shape, are several merchants stalls, racks, and displays. The majority of the furniture is wooden and built sturdily, if nothing else. The U-shape opens up to the north and ordinary stone brick walls, roughly two stories tall and eventually meeting an arched ceiling, block passage to the south and the east. While the market stalls stop travel westward, it's not difficult to see that there are more market stalls to the west of here. 
+    Stone pavers, laid from east to west, cover the ground here. They are sturdy, well-crafted, and even more interestingly they do not all seem to be stone. In fact, a few of the pavers are obsidian and have quite obviously been enchanted to brighten the area. Resting atop the stone floors, and forming a U-shape, are several merchants stalls, racks, and displays. The majority of the furniture is wooden and built sturdily, if nothing else. The U-shape opens up to the north and ordinary stone brick walls, roughly two stories tall and eventually meeting an arched ceiling, block passage to the south and the east. While the market stalls stop travel westward, it's not difficult to see that there are more market stalls to the west of here.
   exits:
     - roomId: "dasmer:eastHall2Goldarra"
       direction: north
@@ -582,7 +582,7 @@
     - roomId: "dasmer:wayfarerInnStableYard"
       direction: south
   doors:
-    "dasmer:wayfarerInnStableYard"
+    "dasmer:wayfarerInnStableYard":
       closed: true
       locked: true
 # Below this line are the games example rooms; keeping them around for now just in case I forget how to do something.
