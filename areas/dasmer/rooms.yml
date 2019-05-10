@@ -462,6 +462,8 @@
       direction: north
     - roomId: "dasmer:blacksmithForge"
       direction: west
+    - roomId: "dasmer:northGateRoad1"
+      direction: east
 # Map Key: 52
 - id: blacksmithForge
   title: The Forge
