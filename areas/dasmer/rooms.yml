@@ -331,7 +331,7 @@
   description: >
     Along the western side of this dirt road is a wooden picket style fence with a gate; standing about waist-height on the average man. On the other side of the fence there is a stable yard, patched with grass and dirt. The wide dirt road, clearly intended to move goods, runs north and south from here. On the eastern side of the road is a building of wood and stone bricks.
   exits:
-    - roomId: wayfarerInnStableYard
+    - roomId: "dasmer:wayfarerInnStableYard"
       direction: west
 # Map Key: 37
 - id: eastWayfarerLane2
