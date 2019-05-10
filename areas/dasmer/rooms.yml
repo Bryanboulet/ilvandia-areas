@@ -243,6 +243,9 @@
   title: A Wide Dirt Road
   description: >
     A wide, hard-packed dirt road runs north and south here. The west side of the road is lined with buildings, some made from stone and some made from wood. Access to the east side of the road is blocked by a wooden fence, approximately a man and a half tall. Set within the center of the fence is a wooden gate.
+  exits:
+    - roomId: "dasmer:wayfarerInnNorthGarden"
+      direction: east
 # Map Key: 26
 - id: wayfarerInnNorthGarden
   title: A Small Garden
@@ -251,6 +254,8 @@
   exits:
     - roomId: "dasmer:westWayfarerLane2"
       direction: west
+    - roomId: "dasmer:wayfarerInnKitchen"
+      direction: south
   doors:
     "dasmer:westWayfarerLane2":
       closed: true
@@ -268,7 +273,7 @@
   title: A Wide Dirt Road
   description: >
     A wide dirt road bends to the north and the southeast from here. The road is wide enough to fit multiple wagons or several horses across it; likely intended to serve as a primary trade route. Along the east side of the road is a wooden fence, perhaps about three meters tall. Along the west side of the road are a couple of buildings. Travel south from here is blocked by a series of large red boulders.
-  Exits:
+  exits:
     - roomId: "dasmer:southWayfarerLane1"
       direction: southeast
 # Map Key: 29
@@ -278,7 +283,7 @@
   description: >
     This section of road is bordered on the north by a wooden privacy fence roughtly three meters tall and on the west by a series of tightly packed, large red boulders. Along the southern edge of the road are multiple buildings, a combination of stone brick and wood make. The road, wide enough to accommodate multiple horse-drawn carriages, bends to the northwest and to the east.
   exits:
-    - roomId: westWayfarerLane4
+    - roomId: "dasmer:westWayfarerLane4"
       direction: northwest
 # Map Key: 30
 - id: southWayfarerLane2
@@ -585,6 +590,22 @@
     "dasmer:wayfarerInnStableYard":
       closed: true
       locked: true
+# Map Key: 62
+- id: mercenaryGuildInteriorSouthGate
+  coordinates: [-1, 2, 0]
+  title: Inside a Stone Gate on West Wayfarer Lane
+  description: >
+    This is inside the mercenary guild area. There are buildings on either side of the road and of course the gate to the south. Road continues north and will head out the north gate.
+  exits:
+    - roomId: mercenaryGuildExteriorSouthGate
+      direction: south
+  doors:
+    "dasmer:mercenaryGuildExteriorSouthGate":
+      closed: true
+      locked: false
+# Map Key: 63
+- id: mercenaryGuildHallReception
+  title: 
 # Below this line are the games example rooms; keeping them around for now just in case I forget how to do something.
 # These are comments, ignored by the file
 # - id: room1
