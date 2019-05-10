@@ -409,7 +409,7 @@
   description: >
     North Gate Road. This also leads west into the smithy's home.
   exits:
-    - roomId: blacksmithYard
+    - roomId: "dasmer:blacksmithYard"
       direction: west
 # Map Key: 47
 - id: northGateInterior
