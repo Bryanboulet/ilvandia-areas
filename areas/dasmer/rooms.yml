@@ -576,7 +576,7 @@
   description: >
     Stables for the inn. This is where people's horses can go if we one day have a mount system!
   exits:
-    - roomId: "wayfarerInnStableYard"
+    - roomId: "dasmer:wayfarerInnStableYard"
       direction: north
 # Map Key: 61
 - id: wayfarerInnShed
@@ -597,15 +597,13 @@
   description: >
     This is inside the mercenary guild area. There are buildings on either side of the road and of course the gate to the south. Road continues north and will head out the north gate.
   exits:
-    - roomId: mercenaryGuildExteriorSouthGate
+    - roomId: "dasmer:mercenaryGuildExteriorSouthGate"
       direction: south
   doors:
     "dasmer:mercenaryGuildExteriorSouthGate":
       closed: true
       locked: false
 # Map Key: 63
-- id: mercenaryGuildHallReception
-  title: 
 # Below this line are the games example rooms; keeping them around for now just in case I forget how to do something.
 # These are comments, ignored by the file
 # - id: room1
