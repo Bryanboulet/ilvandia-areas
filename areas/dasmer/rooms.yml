@@ -366,7 +366,7 @@
 - id: wayfarerInnReception
   title: A Decorated Reception Area
   description: >
-    A moderately decorated reception area for the inn.
+    The foyer of the inn is moderately decorated with an open layout. Thick wooden boards finished with a dark stain cover the floor, oriented north and south. The lower portion of the walls are crafted from grey stone while the upper portion is of the same wood as the floor. Along the eastern wall is a polished oak desk; it's length matching the entire wall. A circular throw rug with abstract designs of red, green, and blue covers the floor in the center of the room. From here, the check-in area exits towards the north into a hallway, the west into what appears to be a parlor, and south into the streets of Dasmer.
   exits:
     - roomId: "dasmer:wayfarerInnEntrance"
       direction: south
@@ -383,31 +383,31 @@
   coordinates: [7, 0, 0]
   title: Traders Run
   description: >
-    This is a street made of stone pavers. It has the occasional obsidian paver in it which magically illuminates the area.
+    A short distance to the west, a two-story stone brick building is visible. Underfoot, and heading east and west, is a street made from stone brick pavers. Interspersed throughout the stone pavers are a few obsidian pavers, each individually casting a bit of magical light around the street.
 # Map Key: 43
 - id: tradersRunIntersection1
   coordinates: [8, 0, 0]
-  title: Intersection at Traders Run
+  title: Intersection at Traders Run and North Gate Road
   description: >
-    Street made of stone pavers with the glowy obsidian bricks. This part of the street intersects with a dirt road at the north.
+    Stone brick pavers intersect with a hard-packed dirt road at the north. From here, the dirt road heads north while the stone pavers lead east and west. In addition to the stone pavers, the occasional obsidian paver can be found nestled in the street. Each obsidian paver puts forth a small bit of magical light, illuminating the area.
 # Map Key: 44
 - id: tradersRun3
   coordinates: [9, 0, 0]
   title: Traders Run
   description: >
-    Street made of stone pavers with glowy obsidian bricks. At the east end of this road is the administration building.
+    At the eastern end of this street stands a grey stone brick building. It rises about two stories high and has a peaked ceiling. Set in the wall of this building is a massive double-door, firmly closed.
 # Map Key: 45
 - id: northGateRoad2
   coordinates: [8, 1, 0]
   title: North Gate Road
   description: >
-    Road that leads out to the north gate. This room intersects with Traders Run at the south.
+    About four horses abreast wide, this hard-packed dirt road runs north from here. At the south end, this dirt road leads into a street of stone pavers.
 # Map Key: 46
 - id: northGateRoad1
   coordinates: [8, 2, 0]
   title: North Gate Road
   description: >
-    North Gate Road. This also leads west into the smithy's home.
+    Wide enough to fit a couple of wagons side-by-side, this hard-packed dirt road runs north and south. A much narrower road leads off the west, towards a house. To the north, a short distance away, is the city gate.
   exits:
     - roomId: "dasmer:blacksmithYard"
       direction: west
@@ -415,7 +415,7 @@
 - id: northGateInterior
   title: North Gate of Dasmer
   description: >
-    This is the north gate of Dasmer, interior side.
+    Large wooden doors, perhaps two men tall and as wide as two carts, are set within a stone brick frame. It looms over the edge of the city, protecting those within from the wildlands outside. The road leads north out of town and south into the city.
   doors:
     "dasmer:northGateExterior":
       closed: false
@@ -424,7 +424,7 @@
 - id: northGateExterior
   title: Outside the North Gate of Dasmer
   description: >
-    This is the north gate of Dasmer, exterior side.
+    The city gates stand here, erected to control access south into Dasmer. The doors within the stone gatehouse are solid wood and about as tall as two men. Further, they are quite wide; clearly constructed with trade routes in mind. The road leads north towards a forest and south into the city.
 # Map Key: 49
 - id: blacksmithCommonRoom
   title: Common Room of a Home
